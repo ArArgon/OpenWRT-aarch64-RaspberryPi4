@@ -8,6 +8,19 @@ Build OpenWrt using GitHub Actions
 
 [Read the details in my blog (in Chinese) | 中文教程](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
 
+## Remarks
+
+This is a personal fork of [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt), and many mods are added.
+
+- OpenWRT upstream: `https://github.com/coolsnowwolf/lede`
+
+- OpenWRT custom repositories:
+	1. `https://github.com/fw876/helloworld`
+	2. `https://github.com/kenzok8/openwrt-pckages`
+	3. `https://github.com/kenzok8/small`
+
+- Packages added: Proxies, iPv6 support, bird2 routing support, ...
+
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
