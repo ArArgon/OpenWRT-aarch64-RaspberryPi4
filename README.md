@@ -12,19 +12,21 @@ Build OpenWrt using GitHub Actions
 
 This is a personal fork of [P3TERX/Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt), and many mods are added.
 
-- OpenWRT upstream: `https://github.com/coolsnowwolf/lede`
+- OpenWRT upstream: `https://github.com/coolsnowwolf/lede` (Lean)
+- OpenWRT upstream: `https://github.com/Lienol/openwrt` (Lienol)
 
 - OpenWRT custom repositories:
 	1. `https://github.com/fw876/helloworld`
 	2. `https://github.com/kenzok8/openwrt-pckages`
 	3. `https://github.com/kenzok8/small`
+	4. `https://github.com/xiaorouji/openwrt-passwall``
 
 - Packages added: Proxies, iPv6 support, bird2 routing support, ...
 
 ## Usage
 
 - Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
+- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) & [Lienol's OpenWrt](https://github.com/Lienol/openwrt) source codes.
 - Push `.config` file to the GitHub repository.
 - Select `Build OpenWrt` on the Actions page.
 - Click the `Run workflow` button.
